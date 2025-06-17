@@ -12,6 +12,9 @@
         "@typescript-eslint/no-explicit-any": "off",
         "@typescript-eslint/no-floating-promises": "error",
         "@typescript-eslint/no-unused-expressions": "error",
+        "@typescript-eslint/no-unnecessary-condition": "error",
+        "no-shadow": "off",
+        "@typescript-eslint/no-shadow": "error",
         "no-unused-expressions": "off",
         "@typescript-eslint/no-unused-vars": [
             "error",
@@ -27,7 +30,7 @@
         "@typescript-eslint/require-await": "error",
         "require-await": "off",
         "@typescript-eslint/explicit-member-accessibility": [
-            "error", 
+            "error",
             { "accessibility": "no-public" }
         ],
         "unused-imports/no-unused-imports": "error",
@@ -49,22 +52,6 @@
         "prefer-promise-reject-errors": "error",
         "spaced-comment": ["error", "always", { "exceptions": ["-", "+"] }],
         "eqeqeq": "error",
-        "no-param-reassign": "error",
-        "capitalized-comments": [
-            "error", "always",
-            { 
-                "ignoreInlineComments": true,
-                "ignoreConsecutiveComments": true,
-                "ignorePattern": "null|undefined|fixme|todo" 
-            }
-        ]
-    },
-    "overrides": [
-        {
-            "files": ["**/generated/**"],
-            "rules": {
-                "capitalized-comments": "off"
-            }
-        }
-    ]
+        "no-param-reassign": "error"
+    }
 }

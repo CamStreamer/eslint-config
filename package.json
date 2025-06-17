@@ -1,6 +1,6 @@
 {
   "name": "@camstreamer/eslint-config",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Netrex ESLint config",
   "main": "index.json",
   "repository": "git@github.com:CamStreamer/eslint-config",
