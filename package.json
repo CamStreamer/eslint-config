@@ -1,8 +1,8 @@
 {
-  "name": "@camstreamer/eslint-config",
-  "version": "1.0.2",
-  "description": "Netrex ESLint config",
-  "main": "index.json",
-  "repository": "git@github.com:CamStreamer/eslint-config",
-  "license": "UNLICENSED"
+    "name": "@netrex/eslint-config",
+    "version": "1.0.10",
+    "description": "Netrex ESLint config",
+    "main": "index.json",
+    "repository": "git@gitlab.survilla.net:netrex/eslint-config.git",
+    "license": "UNLICENSED"
 }

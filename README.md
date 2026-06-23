@@ -1,13 +1,13 @@
 # eslint-config
 
-Our CamStreamer [ESLint](https://eslint.org/) config.
+Our Netrex [ESLint](https://eslint.org/) config.
 
 ## Usage
 
 **Install**:
 
 ```
-$ yarn add --dev @camstreamer/eslint-config
+$ yarn add --dev @netrex/eslint-config
 ```
 
 **Edit `eslintrc.js/.eslintrc`**:
@@ -15,8 +15,11 @@ $ yarn add --dev @camstreamer/eslint-config
 ```
 {
   // ...
-  extends: ['@camstreamer/eslint-config'] // for nodejs
-  extends: ['@camstreamer/eslint-config/react.json'] // for react
+  extends: ['@netrex/eslint-config'] // for nodejs
+  extends: ['@netrex/eslint-config/react.json'] // for react
 }
 ```
 
+**We should update yarn, we need nodejs 18+**
+
+**Custom rules are implemented in `./eslint-plugin` and are used (via postinstall script) in eslint plugin `@netrex`**
